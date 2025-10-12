@@ -56,14 +56,14 @@ const About = () => {
           </motion.div>
 
           {/* Content */}
-          <motion.div variants={itemVariants} className="order-1 lg:order-2">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">About Me</h2>
+          <motion.div variants={itemVariants} className="order-1 lg:order-2 mobile-text-spacing">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">About Me</h2>
             
-            <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+            <p className="text-base sm:text-lg text-gray-600 mb-6 leading-relaxed text-justify">
               {personalInfo.bio}
             </p>
             
-            <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+            <p className="text-base sm:text-lg text-gray-600 mb-8 leading-relaxed text-justify">
               With a passion for both software development and data science, I bring a unique perspective to every project. 
               I believe in creating solutions that are not only functional but also provide valuable insights through data analysis.
             </p>
@@ -82,7 +82,7 @@ const About = () => {
                 whileHover={{ scale: 1.05 }}
                 className="text-center p-4 bg-secondary-50 rounded-lg"
               >
-                <div className="text-3xl font-bold text-secondary-600 mb-2">50+</div>
+                <div className="text-3xl font-bold text-secondary-600 mb-2">20+</div>
                 <div className="text-gray-600">Projects Completed</div>
               </motion.div>
             </div>

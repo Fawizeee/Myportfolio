@@ -7,7 +7,12 @@ export const personalInfo = {
   bio: "Passionate software developer and data scientist with expertise in building scalable applications and extracting insights from complex datasets. I love solving challenging problems and creating solutions that make a real impact.",
   image: "/placeholder-profile.jpg"
 };
-
+export const socialLinks = {
+  github: "https://github.com/Fawizeee",
+  linkedin: "https://linkedin.com/in/",
+  twitter: "https://twitter.com/Fawiz33",
+  email: "bellofawaz5@gmail.com"
+};
 export const skills = {
   development: [
     { name: "JavaScript", level: 90 },
@@ -67,14 +72,16 @@ export const experience = [
 export const projects = [
   {
     id: 1,
-    title: "E-Commerce Analytics Dashboard",
-    category: "Data Science",
-    description: "Built a comprehensive analytics dashboard for e-commerce platform using React and Python. Features real-time data visualization and predictive analytics.",
-    image: "/placeholder-project1.jpg",
-    technologies: ["React", "Python", "Pandas", "Chart.js", "PostgreSQL"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/yourusername/project1",
+    title: "Referral Web Application",
+    category: "Web Development",
+    description: "Developed a referral management web app that allows users to create contests, enable referrers to join, and track referral performance such as number of invites, conversions, and user activities. Built with scalability and API integration in mind for seamless embedding into other platforms.",
+    image: "/ref.png",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "REST API"],
+    liveUrl: "#",
+    githubUrl: `#`,
     featured: true
+    
+    
   },
   {
     id: 2,
@@ -83,64 +90,59 @@ export const projects = [
     description: "Developed a RESTful API for machine learning model predictions. Handles image classification and natural language processing requests.",
     image: "/placeholder-project2.jpg",
     technologies: ["Python", "FastAPI", "TensorFlow", "Docker", "AWS"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/yourusername/project2",
+    liveUrl: "#",
+    githubUrl: `#`,
     featured: true
   },
   {
     id: 3,
-    title: "Task Management App",
-    category: "Development",
+    title: "Student Tracking Application",
+    category: "App Development",
     description: "Full-stack task management application with real-time collaboration features. Built with modern web technologies and responsive design.",
-    image: "/placeholder-project3.jpg",
-    technologies: ["React", "Node.js", "Socket.io", "MongoDB", "Tailwind CSS"],
+    image: "/childtrackapp.jpg",
+    technologies: ["React-native", "django", "Socket.io", "Sqlite", "Tailwind CSS","expo go"],
     liveUrl: "https://example.com",
-    githubUrl: "https://github.com/yourusername/project3",
+    githubUrl: `${socialLinks.github}/`,
     featured: false
   },
   {
     id: 4,
-    title: "Data Visualization Tool",
+    title: "Hypertension Data Visualization Tool",
     category: "Data Science",
-    description: "Interactive data visualization tool for exploring large datasets. Features multiple chart types and export capabilities.",
-    image: "/placeholder-project4.jpg",
-    technologies: ["D3.js", "React", "Python", "Flask", "SQLite"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/yourusername/project4",
+    description: "An interactive data visualization web app for analyzing hypertension-related datasets. It supports multiple chart types, filtering options, and data export for deeper insights.",
+    image: "/hypertensionui.png",
+    technologies: ["React", "D3.js", "Python", "Flask", "SQLite"],
+    liveUrl: "https://hypertensionui-production.up.railway.app/",
+    githubUrl: `${socialLinks.github}/hypertensionui`,
     featured: false
   }
 ];
 
 export const testimonials = [
   {
-    name: "Sarah Johnson",
-    position: "Product Manager",
-    company: "TechCorp",
+    name: "Erusiafe",
+    position: "data Scientist",
+    company: "Private",
     content: "Outstanding work on our data analytics project. The insights provided helped us increase revenue by 25%.",
-    image: "/placeholder-testimonial1.jpg",
+    image: "/hypertensionui.png",
     rating: 5
   },
   {
-    name: "Michael Chen",
-    position: "software owner",
+    name: "Sophia",
+    position: "Software Engineer",
     company: "Private",
     content: "Exceptional developer with great attention to detail. Delivered high-quality code on time and within budget.",
-    image: "/placeholder-testimonial2.jpg",
+    image: "/childtrackapp.jpg",
     rating: 5
   },
   {
-    name: "Emily Rodriguez",
-    position: "Data Science Lead",
-    company: "DataCorp",
-    content: "Brilliant data scientist who transformed our approach to machine learning. Highly recommend for any data project.",
-    image: "/placeholder-testimonial3.jpg",
+    name: "Adisa Opeyemi",
+    position: "App Developer",
+    company: "Private",
+    content: "Brilliant Developer who delivered a high-quality code on time and within budget.",
+    image: "/fileprotection.jpg",
     rating: 5
   }
 ];
 
-export const socialLinks = {
-  github: "https://github.com/yourusername",
-  linkedin: "https://linkedin.com/in/yourusername",
-  twitter: "https://twitter.com/yourusername",
-  email: "bellofawaz5@gmail.com"
-};
+

@@ -24,7 +24,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen bg-gradient-to-br from-primary-600 via-primary-700 to-primary-800 flex items-center">
+    <section id="home" className="min-h-screen bg-gradient-to-br from-primary-600 via-primary-700 to-primary-800 flex items-center px-6 sm:px-8 md:px-12 lg:px-16">
       <div className="container-max">
         <motion.div
           variants={containerVariants}
@@ -33,10 +33,10 @@ const Hero = () => {
           className="grid lg:grid-cols-2 gap-12 items-center"
         >
           {/* Content */}
-          <div className="text-white">
+          <div className="text-white mobile-text-spacing">
             <motion.h1 
               variants={itemVariants}
-              className="text-5xl lg:text-6xl font-bold mb-6"
+              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6"
             >
               Hi, I'm{' '}
               <span className="text-secondary-400">{personalInfo.name}</span>
@@ -44,14 +44,14 @@ const Hero = () => {
             
             <motion.h2 
               variants={itemVariants}
-              className="text-2xl lg:text-3xl font-semibold mb-6 text-primary-100"
+              className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mb-6 text-primary-100"
             >
               {personalInfo.title}
             </motion.h2>
             
             <motion.p 
               variants={itemVariants}
-              className="text-xl mb-8 text-primary-100 leading-relaxed"
+              className="text-base sm:text-lg md:text-xl mb-8 text-primary-100 leading-relaxed"
             >
               {personalInfo.tagline}
             </motion.p>

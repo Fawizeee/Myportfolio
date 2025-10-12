@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import {personalInfo}from '../data/portfolioData';
+import { personalInfo } from '../data/portfolioData';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -48,7 +48,7 @@ const Header = () => {
           <motion.div
             whileHover={{ scale: 1.05 }}
             className={`text-2xl font-bold transition-colors duration-300 ${
-              isScrolled ? "text-blue-600 block" : "hidden"
+              isScrolled ? "text-blue-600 flex justify-center w-full" : "hidden"
             }`}
           >
           {personalInfo.name}

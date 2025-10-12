@@ -28,10 +28,14 @@
   }
   
   .section-padding {
-    @apply py-16 px-4 sm:px-6 lg:px-8;
+    @apply py-16 px-6 sm:px-8 md:px-12 lg:px-16;
   }
   
   .container-max {
     @apply max-w-7xl mx-auto;
+  }
+  
+  .mobile-text-spacing {
+    @apply px-2 sm:px-0;
   }
 }

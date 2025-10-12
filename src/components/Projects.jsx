@@ -76,12 +76,12 @@ const Projects = () => {
                 className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden"
               >
                 {/* Project Image */}
-                <div className="relative h-48 bg-gradient-to-br from-primary-100 to-primary-200">
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="w-32 h-32 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500">
-                      Project Image
-                    </div>
-                  </div>
+                <div className="relative h-48 bg-gradient-to-br from-primary-100 to-primary-200 overflow-hidden">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-full object-cover"
+                  />
                   
                   {/* Featured badge */}
                   {project.featured && (
