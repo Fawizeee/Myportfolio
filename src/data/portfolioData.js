@@ -5,7 +5,7 @@ export const personalInfo = {
   email: "bellofawaz5@gmail.com",
   location: "Your City, Country",
   bio: "Passionate software developer and data scientist with expertise in building scalable applications and extracting insights from complex datasets. I love solving challenging problems and creating solutions that make a real impact.",
-  image: "/placeholder-profile.jpg"
+  image: "/profilepic.jpg"
 };
 export const socialLinks = {
   github: "https://github.com/Fawizeee",
