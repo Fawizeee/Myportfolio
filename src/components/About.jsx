@@ -37,7 +37,11 @@ const About = () => {
             <div className="relative">
               <div className="w-full h-96 bg-gradient-to-br from-primary-100 to-primary-200 rounded-2xl flex items-center justify-center">
                 <div className="w-80 h-80 bg-gray-200 rounded-full flex items-center justify-center text-gray-500 text-lg">
-                  Professional Photo
+                 <img
+                   src={personalInfo.image}
+                   alt="Profile"
+                   className="w-72 h-72 object-cover rounded-full shadow-lg"
+                 />
                 </div>
               </div>
               

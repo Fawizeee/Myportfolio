@@ -3,9 +3,10 @@ export const personalInfo = {
   title: "Software Developer & Data Scientist",
   tagline: "Building innovative solutions through code and data",
   email: "bellofawaz5@gmail.com",
-  location: "Your City, Country",
+  location: "Lagos, Nigeria",
   bio: "Passionate software developer and data scientist with expertise in building scalable applications and extracting insights from complex datasets. I love solving challenging problems and creating solutions that make a real impact.",
-  image: "/profilepic.jpg"
+  image: "/profilepic.jpg",
+  image2: "/profilepic2.png"
 };
 export const socialLinks = {
   github: "https://github.com/Fawizeee",

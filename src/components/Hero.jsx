@@ -134,7 +134,11 @@ const Hero = () => {
               <div className="w-80 h-80 lg:w-96 lg:h-96 bg-gradient-to-br from-secondary-400 to-secondary-600 rounded-full flex items-center justify-center shadow-2xl">
                 <div className="w-72 h-72 lg:w-88 lg:h-88 bg-white rounded-full flex items-center justify-center">
                   <div className="w-64 h-64 lg:w-80 lg:h-80 bg-gray-200 rounded-full flex items-center justify-center text-gray-500 text-lg">
-                    Your Photo
+                    <img
+                      src={personalInfo.image2}
+                      alt="Profile"
+                      className="w-60 h-60 lg:w-72 lg:h-72 object-cover rounded-full shadow-lg"
+                    />
                   </div>
                 </div>
               </div>

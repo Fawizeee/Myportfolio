@@ -7,9 +7,9 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 text-white">
+  <footer className="bg-gray-900 text-white pt-6 pb-2">
       <div className="container-max">
-        <div className="py-12">
+  <div className="py-12 px-4 md:px-8">
           <div className="grid md:grid-cols-3 gap-8">
             {/* Brand */}
             <div>
@@ -108,7 +108,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 py-6">
-          <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className="flex flex-col md:flex-row justify-between items-center px-2 md:px-6">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
               © {currentYear} {personalInfo.name}. All rights reserved.
             </div>
