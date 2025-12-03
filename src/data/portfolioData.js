@@ -5,7 +5,7 @@ export const personalInfo = {
   email: "bellofawaz5@gmail.com",
   location: "Lagos, Nigeria",
   bio: "Passionate software developer and data scientist with expertise in building scalable applications and extracting insights from complex datasets. I love solving challenging problems and creating solutions that make a real impact.",
-  image: "/profilepic.jpg",
+  image: "/1764683931538.jpg",
   image2: "/profilepic2.png"
 };
 export const socialLinks = {
