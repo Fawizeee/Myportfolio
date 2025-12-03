@@ -6,7 +6,7 @@ export const personalInfo = {
   location: "Lagos, Nigeria",
   bio: "Passionate software developer and data scientist with expertise in building scalable applications and extracting insights from complex datasets. I love solving challenging problems and creating solutions that make a real impact.",
   image: "/1764683931538.jpg",
-  image2: "/profilepic2.png"
+  image2: "https://media.licdn.com/dms/image/v2/D5612AQF4TorKPAtOBA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1726144041521?e=2147483647&v=beta&t=3m-uNhmvIeiRkQ37IrE2DRv8mE_OsF8kmAvbgViJ0gI"
 };
 export const socialLinks = {
   github: "https://github.com/Fawizeee",
